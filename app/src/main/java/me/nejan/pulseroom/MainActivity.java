@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Firebase = findViewById(R.id.Firebase);
         Firebase.getSettings().setJavaScriptEnabled(true);
         Firebase.setWebViewClient(new WebViewClient());
-        Firebase.loadUrl("https://admin.members.rccsonline.com");
+        Firebase.loadUrl("https://pulseroom-nejan-me.firebaseapp.com");
     }
 }
